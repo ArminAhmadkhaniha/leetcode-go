@@ -45,3 +45,22 @@ func main() {
     sample := []int{1, 2, 3, 1}
     println(hasDuplicate(sample)) // true
 }
+
+// other sol
+// func hasDuplicate(nums []int) bool {
+//     set := make(map[int]int)
+//     for _, val := range nums{
+//         _, ok := set[val]
+//         if ok{
+//             return true
+//         } else{
+//             set[val] = 1
+
+//         }
+ 
+//     }
+//     return false
+
+    
+// }
+
