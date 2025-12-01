@@ -58,3 +58,20 @@ func main() {
         println(result[0], result[1]) // Output: 0 1
     }
 }
+
+
+// other try :)
+// func twoSum(nums []int, target int) []int {
+//     hashmap := make(map[int]int)
+//     for idx, val := range nums{
+//         diff := target - val
+//         _, ok := hashmap[diff]
+//         if ok{
+//             return []int{hashmap[diff], idx}
+//         }else{
+//             hashmap[val] = idx
+//         }
+        
+//     }
+//     return nil
+// }
